@@ -1,26 +1,35 @@
-
-.container{
-    display: flex;
+.menu{
+    text-align: center;
+    float: right;
+    background-color: lightsteelblue;
+    height: 100px;
+    width: 600px;
     
+   }
+
+#Vlaggen{
+    display: inline-block;
+    border: dashed;
+    color: black;
 }
 
-.col{
-    margin: 2px;
+#Mondriaan{
+    display: inline-block;
+    border-left: dashed;
+    border-bottom: dashed;
+    border-right: dashed;
+    color: black;
 }
 
-.button{
-    width: 300px;
-    height: 200px;
-    background-color: red;
-    margin: 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.id{
+    display: inline-block;
+    border: solid;
+    border-bottom: solid;
 }
 
-.button span{
-    
-    font-size: 2em;
-    font-family: consolas;
+.balk{
+    width: 100%;
+    height: 50px;
+    background-color:teal;
+    margin-bottom: 20px;
 }
